@@ -382,7 +382,7 @@ footer img {
 	}
 	
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
 	.main-bg{
 		height: 400px;
 	}
