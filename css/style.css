@@ -1,0 +1,349 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans';
+}	
+html, body {
+	background-color: white;
+}
+
+/* Classes Auxiliares */
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 2%;
+	text-align: center;
+}
+.clear {
+	clear: both;
+}
+.w50 {
+	width: 50%;
+	float: left;
+}
+.w33 {
+	float: left;
+	width: 33.3%;
+}
+/* Classes do meu Site*/
+
+/* Sessão Main */
+.main-bg {
+    width: 100%;
+    height: 600px;
+    background-image: url('../images/13496.jpg');
+	background-size: cover;
+}
+.logo-inicio img {
+    width: 700px;
+    margin-top: 350px;
+}
+
+/* menu desktop */
+header {
+	width: 100%;
+	padding: 10px;
+    background-color:#D5A315;
+	text-align: center;
+}
+nav.menu-desktop {
+	color:#361909;
+	font-size: 20px;
+	font-weight: bold;
+}
+nav.menu-desktop ul {
+	position: relative;
+	top:8px;
+}
+nav.menu-desktop li {
+	padding: 0 30px 10px;
+	font-weight: lighter;
+	display: inline-block;
+}
+nav.menu-desktop a {
+	color:#361909;
+	text-decoration: none;
+	font-size: 20px;
+}
+nav.menu-desktop a:hover {
+	color:#662e10;
+	font-weight: bold;
+}
+
+/* Bem vindo */
+.bem-vindo {
+	padding: 30px 0;
+}
+section div.area-texto h1 {
+	font-size: 90px;
+	font-family: 'Berkshire Swash';
+	margin: 30px 0;
+	color: #361909;
+
+}
+.area-texto {
+	text-align: justify;
+}
+section div.area-texto h3 {
+	font-size: 35px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+.area-texto span {
+	font-size: 20px;
+	margin: 20px 0;
+	line-height: 1.5;
+}
+
+.area-texto button {
+	padding: 20px;
+	color: white;
+	background-color: #361909 ;
+	border-radius: 25px;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	margin: 25px 0 10px;
+}
+.area-texto button:hover {
+	background-color: #683a22;
+}
+.area-img img {
+	width: 80%;
+	height: 600px;
+	border-radius: 15px;
+}
+
+/* mini menu */
+.mini-menu {
+	padding: 30px 0;
+	border-radius: 20px;
+	background-color: rgba(36, 33, 33, 0.1);
+}
+.titulo-menu {
+	margin-bottom: 80px;
+}
+.titulo-menu h1 {
+	font-size: 40px;
+	font-family: 'Berkshire Swash';
+	margin: 50px 0 15px 0;
+	color: #361909;
+}
+.titulo-menu h3 {
+	font-size: 30px;
+}
+
+.menu-side img {
+	width: 80%;
+	border-radius: 10px;
+}
+.menu-side {
+	margin-bottom: 50px;
+	
+}
+.menu-side h3 {
+	color: #361909;
+	font-size: 22px;
+	font-family: 'Berkshire Swash';
+	text-align: left;
+}
+.menu-side p {
+	text-align: left;
+	font-size: 18px;
+}
+
+/* area promoções */
+.area-promocoes {
+	margin: 30px 0;
+}
+.area-promocoes img {
+	width: 80%;
+	height: 600px;
+	border-radius: 15px;
+}
+.area-promocoes i {
+	font-size: 80px;
+	color:#D5A315;
+	margin-top: 70px;
+	margin: 0 5px;
+}
+.area-promocoes .beer-right {
+	animation: movebeerright 2s infinite;
+	display: inline-block;
+}
+.area-promocoes .beer-left {
+	animation: movebeerleft 2s infinite;
+	display: inline-block;
+}
+.beer-virada i {
+	transform: scaleX(-1);
+}
+
+@keyframes movebeerright {
+	from {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(40deg);
+	}
+	to {
+		transform: rotate(0deg);
+	}
+}
+@keyframes movebeerleft {
+	from {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(-40deg);
+	}
+	to {
+		transform: rotate( 0deg);
+	}
+}
+
+.area-promocoes p {
+	margin-top: 50px;
+	text-align: center;
+}
+.area-promocoes h2 {
+	font-size: 45px;
+	color: #361909;
+	margin-top: 20px;
+}
+
+/* Inicios area informações */
+.area-info {
+	padding: 50px 0;
+	border-radius: 20px;
+	background-color: rgba(36, 33, 33, 0.1);
+}
+.area-info h2 {
+	color: #361909;
+	font-size: 40px;
+	font-family: 'Berkshire Swash';
+	padding-bottom: 30px;
+}
+.area-info span {
+	font-size: 20px;
+	margin: 0 10px;
+}
+.area-info i {
+	color: #D5A315;
+	margin: 0 10px;
+}
+
+/* Inicios area contato */
+.area-contato {
+	padding: 50px 0;
+}
+.area-contato  h2 {
+	font-size: 40px;
+	font-family: 'Berkshire Swash';
+	margin: 50px 0 15px;
+	color: #361909;
+}
+.area-contato a, p {
+	text-decoration: none;
+	font-size: 35px;
+	color: black;
+	text-align: center;
+	margin: 30px 0;
+}
+.insta {
+	color: #361909;
+}
+.wpp {
+	color: green;
+}
+.icon-maps  {
+	color: rgb(141, 32, 32);
+}
+.area-contato span {
+	margin-top: 30px;
+}
+iframe {
+	border-radius: 15px;
+}
+
+
+/* footer */
+footer {
+	background-color: #D5A315;
+	align-items: center;
+}
+footer img {
+	width: 170px;
+}
+
+/* Scroll animation */ 
+[data-anime] {
+	opacity: 0;
+	transition: .3s;
+  }
+  
+  [data-anime="left"] {
+	transform: translate3d(-30px, 0, 0);
+  }
+  
+  [data-anime="right"] {
+	transform: translate3d(30px, 0, 0);
+  }
+  
+  [data-anime="top"] {
+	transform: translate3d(0, -30px, 0);
+  }
+ 
+  
+  [data-anime].animate {
+	opacity: 1;
+	transform: translate3d(0px, 0px, 0px);
+  }
+
+
+
+/* responsive */
+@media screen and (max-width: 768px) {
+	.main-bg{
+		background-position: center;
+	}
+	.w50, .w33 {
+		width: 100%;
+		margin-bottom: 20px;
+		margin-left: 10px;
+	}
+	.logo-inicio img {
+		width: 450px;
+		margin-top: 440px;
+	}
+	nav.menu-desktop a{
+		font-size: 20px;
+	}
+	nav.menu-desktop li{
+		padding: 0 10px 10px;
+		font-weight: lighter;
+		display: inline-block;
+	}
+	.area-img img{
+		width: 400px;
+		height: 500px;
+		border-radius: 5px;
+	}
+	.area-contato .maps {
+		display: none;
+	}
+	footer.footer {
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+	/*nav.menu-desktop {
+		display: none;
+	} */
+	#areaportifolio button {
+		margin-left: 18%;
+	}
+}
