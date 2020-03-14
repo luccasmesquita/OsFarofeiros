@@ -382,3 +382,35 @@ footer img {
 	}
 	
 }
+@media screen and (max-width: 320px) {
+	.main-bg{
+		height: 400px;
+	}
+	.logo-inicio img {
+		width: 70%;
+		margin-top: 95%;
+	}
+	nav.menu-desktop a{
+		font-size: 13px;
+	}
+	nav.menu-desktop li{
+		padding: 0 0 5px;
+		font-weight: lighter;
+		display: inline-block;
+	}
+
+	section div.area-texto h1 {
+		font-size: 70px
+	}
+	section div.area-texto h3 {
+		font-size: 25px;
+		line-height: 1.0;
+	}
+	
+	.area-info span {
+		font-size: 25px;
+		margin: 0 0 10px;
+		display: block;
+	}
+	
+}
